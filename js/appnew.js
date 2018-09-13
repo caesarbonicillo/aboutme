@@ -98,9 +98,3 @@ while (guessTwo < 6) {
   }
 }
 
-function getArea(width, height) {
-  return width * height; 
-
-
-
-}
