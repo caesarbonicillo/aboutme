@@ -1,2 +1,52 @@
-p {color: red}
-p {font-family: Arial, Helvetica, sans-serif}
+body {
+  background-color:lightblue;
+} 
+
+p:first-letter {
+  font-size: 150%;
+}
+
+p {   
+  color:purple;
+}
+  
+h1 {
+  color:darkblue;
+}
+
+ol {
+  color:darkblue;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.5em;
+  list-style-type: lower-roman;
+  text-shadow: 1px .5px 0px purple;
+}
+  
+ul {
+  color:darkblue;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.5em;
+  list-style-type: none;
+  text-shadow: 1px .5px 0px purple;
+}
+  
+b {
+  color:black;
+  font-size: 50%;
+}
+
+div, section, span {
+  border: 2px solid #111;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+section { 
+  margin: 50px 100px 100px 10px;
+}
+  
+  
