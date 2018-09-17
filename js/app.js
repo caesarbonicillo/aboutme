@@ -55,6 +55,7 @@ function fiveBoolean(){
   }
 }
 fiveBoolean();
+
 function numberOfStatesVisited(){
   var guess = 0;
 
@@ -86,6 +87,7 @@ function numberOfStatesVisited(){
   }
 }
 numberOfStatesVisited();
+
 function guessStatesLived(){
   var guessTwo = 0;
   var statesList = ['washington', 'texas', 'california']; 

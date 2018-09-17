@@ -1,18 +1,48 @@
 body {
   background-color:lightblue;
+  margin: 5%;
 } 
 
-p:first-letter {
-  font-size: 150%;
+b {
+  color:black;
+  font-size: 50%;
 }
 
-p {   
-  color:purple;
+footer {
+  text-align: center;
+
 }
+
   
-h1 {
+header {
   color:darkblue;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1em;
 }
+
+h1 {
+  color: darkblue;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 2em;
+}
+
+h3 {
+  color: darkslateblue;
+  font-size: 1em;
+  display: block;
+  text-align: center;
+}
+img {
+  display: block;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }  
+
 
 ol {
   color:darkblue;
@@ -22,7 +52,20 @@ ol {
   list-style-type: lower-roman;
   text-shadow: 1px .5px 0px purple;
 }
-  
+
+p:first-letter {
+  font-size: 150%;
+}
+
+p {   
+  color:purple;
+  margin: 2%;
+}
+
+section { 
+  margin: 50px 100px 100px 10px;
+}
+
 ul {
   color:darkblue;
   font-style: oblique;
@@ -31,22 +74,8 @@ ul {
   list-style-type: none;
   text-shadow: 1px .5px 0px purple;
 }
-  
-b {
-  color:black;
-  font-size: 50%;
-}
-
-div, section, span {
-  border: 2px solid #111;
-  display: inline-block;
-  margin: 20px;
-  padding: 20px;
-  width: 200px;
-}
 
 section { 
   margin: 50px 100px 100px 10px;
 }
-  
-  
+ 
